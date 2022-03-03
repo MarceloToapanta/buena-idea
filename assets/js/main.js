@@ -207,6 +207,7 @@
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
+        filter: '.filter-app',
         itemSelector: '.portfolio-item'
       });
 
